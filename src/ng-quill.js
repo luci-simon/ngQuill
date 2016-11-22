@@ -379,41 +379,44 @@ app.run([
                         '</span>' +
                         '<span class="ql-format-group" ng-if="$ctrl.shouldShow([\'color\', \'background\'])">' +
                             '<select title="{{$ctrl.dict.textColor}}" class="ql-color" ng-if="$ctrl.shouldShow([\'color\'])">' +
-                                '<option value="rgb(0, 0, 0)" label="rgb(0, 0, 0)" selected=""></option>' +
-                                '<option value="rgb(230, 0, 0)" label="rgb(230, 0, 0)"></option>' +
-                                '<option value="rgb(255, 153, 0)" label="rgb(255, 153, 0)"></option>' +
-                                '<option value="rgb(255, 255, 0)" label="rgb(255, 255, 0)"></option>' +
-                                '<option value="rgb(0, 138, 0)" label="rgb(0, 138, 0)"></option>' +
-                                '<option value="rgb(0, 102, 204)" label="rgb(0, 102, 204)"></option>' +
-                                '<option value="rgb(153, 51, 255)" label="rgb(153, 51, 255)"></option>' +
-                                '<option value="rgb(255, 255, 255)" label="rgb(255, 255, 255)"></option>' +
-                                '<option value="rgb(250, 204, 204)" label="rgb(250, 204, 204)"></option>' +
-                                '<option value="rgb(255, 235, 204)" label="rgb(255, 235, 204)"></option>' +
-                                '<option value="rgb(255, 255, 204)" label="rgb(255, 255, 204)"></option>' +
-                                '<option value="rgb(204, 232, 204)" label="rgb(204, 232, 204)"></option>' +
-                                '<option value="rgb(204, 224, 245)" label="rgb(204, 224, 245)"></option>' +
-                                '<option value="rgb(235, 214, 255)" label="rgb(235, 214, 255)"></option>' +
-                                '<option value="rgb(187, 187, 187)" label="rgb(187, 187, 187)"></option>' +
-                                '<option value="rgb(240, 102, 102)" label="rgb(240, 102, 102)"></option>' +
-                                '<option value="rgb(255, 194, 102)" label="rgb(255, 194, 102)"></option>' +
-                                '<option value="rgb(255, 255, 102)" label="rgb(255, 255, 102)"></option>' +
-                                '<option value="rgb(102, 185, 102)" label="rgb(102, 185, 102)"></option>' +
-                                '<option value="rgb(102, 163, 224)" label="rgb(102, 163, 224)"></option>' +
-                                '<option value="rgb(194, 133, 255)" label="rgb(194, 133, 255)"></option>' +
-                                '<option value="rgb(136, 136, 136)" label="rgb(136, 136, 136)"></option>' +
-                                '<option value="rgb(161, 0, 0)" label="rgb(161, 0, 0)"></option>' +
-                                '<option value="rgb(178, 107, 0)" label="rgb(178, 107, 0)"></option>' +
-                                '<option value="rgb(178, 178, 0)" label="rgb(178, 178, 0)"></option>' +
-                                '<option value="rgb(0, 97, 0)" label="rgb(0, 97, 0)"></option>' +
-                                '<option value="rgb(0, 71, 178)" label="rgb(0, 71, 178)"></option>' +
-                                '<option value="rgb(107, 36, 178)" label="rgb(107, 36, 178)"></option>' +
-                                '<option value="rgb(68, 68, 68)" label="rgb(68, 68, 68)"></option>' +
-                                '<option value="rgb(92, 0, 0)" label="rgb(92, 0, 0)"></option>' +
-                                '<option value="rgb(102, 61, 0)" label="rgb(102, 61, 0)"></option>' +
-                                '<option value="rgb(102, 102, 0)" label="rgb(102, 102, 0)"></option>' +
-                                '<option value="rgb(0, 55, 0)" label="rgb(0, 55, 0)"></option>' +
-                                '<option value="rgb(0, 41, 102)" label="rgb(0, 41, 102)"></option>' +
-                                '<option value="rgb(61, 20, 102)" label="rgb(61, 20, 102)"></option>' +
+                                '<option value="#006293" label="#006293" selected=""></option>' +
+                                '<option value="#B82A2E" label="#B82A2E"></option>' +
+                                  
+//                                 '<option value="rgb(0, 0, 0)" label="rgb(0, 0, 0)" selected=""></option>' +
+//                                 '<option value="rgb(230, 0, 0)" label="rgb(230, 0, 0)"></option>' +
+//                                 '<option value="rgb(255, 153, 0)" label="rgb(255, 153, 0)"></option>' +
+//                                 '<option value="rgb(255, 255, 0)" label="rgb(255, 255, 0)"></option>' +
+//                                 '<option value="rgb(0, 138, 0)" label="rgb(0, 138, 0)"></option>' +
+//                                 '<option value="rgb(0, 102, 204)" label="rgb(0, 102, 204)"></option>' +
+//                                 '<option value="rgb(153, 51, 255)" label="rgb(153, 51, 255)"></option>' +
+//                                 '<option value="rgb(255, 255, 255)" label="rgb(255, 255, 255)"></option>' +
+//                                 '<option value="rgb(250, 204, 204)" label="rgb(250, 204, 204)"></option>' +
+//                                 '<option value="rgb(255, 235, 204)" label="rgb(255, 235, 204)"></option>' +
+//                                 '<option value="rgb(255, 255, 204)" label="rgb(255, 255, 204)"></option>' +
+//                                 '<option value="rgb(204, 232, 204)" label="rgb(204, 232, 204)"></option>' +
+//                                 '<option value="rgb(204, 224, 245)" label="rgb(204, 224, 245)"></option>' +
+//                                 '<option value="rgb(235, 214, 255)" label="rgb(235, 214, 255)"></option>' +
+//                                 '<option value="rgb(187, 187, 187)" label="rgb(187, 187, 187)"></option>' +
+//                                 '<option value="rgb(240, 102, 102)" label="rgb(240, 102, 102)"></option>' +
+//                                 '<option value="rgb(255, 194, 102)" label="rgb(255, 194, 102)"></option>' +
+//                                 '<option value="rgb(255, 255, 102)" label="rgb(255, 255, 102)"></option>' +
+//                                 '<option value="rgb(102, 185, 102)" label="rgb(102, 185, 102)"></option>' +
+//                                 '<option value="rgb(102, 163, 224)" label="rgb(102, 163, 224)"></option>' +
+//                                 '<option value="rgb(194, 133, 255)" label="rgb(194, 133, 255)"></option>' +
+//                                 '<option value="rgb(136, 136, 136)" label="rgb(136, 136, 136)"></option>' +
+//                                 '<option value="rgb(161, 0, 0)" label="rgb(161, 0, 0)"></option>' +
+//                                 '<option value="rgb(178, 107, 0)" label="rgb(178, 107, 0)"></option>' +
+//                                 '<option value="rgb(178, 178, 0)" label="rgb(178, 178, 0)"></option>' +
+//                                 '<option value="rgb(0, 97, 0)" label="rgb(0, 97, 0)"></option>' +
+//                                 '<option value="rgb(0, 71, 178)" label="rgb(0, 71, 178)"></option>' +
+//                                 '<option value="rgb(107, 36, 178)" label="rgb(107, 36, 178)"></option>' +
+//                                 '<option value="rgb(68, 68, 68)" label="rgb(68, 68, 68)"></option>' +
+//                                 '<option value="rgb(92, 0, 0)" label="rgb(92, 0, 0)"></option>' +
+//                                 '<option value="rgb(102, 61, 0)" label="rgb(102, 61, 0)"></option>' +
+//                                 '<option value="rgb(102, 102, 0)" label="rgb(102, 102, 0)"></option>' +
+//                                 '<option value="rgb(0, 55, 0)" label="rgb(0, 55, 0)"></option>' +
+//                                 '<option value="rgb(0, 41, 102)" label="rgb(0, 41, 102)"></option>' +
+//                                 '<option value="rgb(61, 20, 102)" label="rgb(61, 20, 102)"></option>' +
                             '</select>' +
                             '<select title="{{$ctrl.dict.backgroundColor}}" class="ql-background" ng-if="$ctrl.shouldShow([\'background\'])">' +
                                 '<option value="rgb(0, 0, 0)" label="rgb(0, 0, 0)"></option>' +
