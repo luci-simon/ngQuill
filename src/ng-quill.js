@@ -379,7 +379,8 @@ app.run([
                         '</span>' +
                         '<span class="ql-format-group" ng-if="$ctrl.shouldShow([\'color\', \'background\'])">' +
                             '<select title="{{$ctrl.dict.textColor}}" class="ql-color" ng-if="$ctrl.shouldShow([\'color\'])">' +
-                                '<option value="#006293" label="#006293" selected=""></option>' +
+                                '<option value="rgb(0, 0, 0)" label="rgb(0, 0, 0)" selected=""></option>' +
+                                '<option value="#006293" label="#006293"></option>' +
                                 '<option value="#B82A2E" label="#B82A2E"></option>' +
                                   
 //                                 '<option value="rgb(0, 0, 0)" label="rgb(0, 0, 0)" selected=""></option>' +
